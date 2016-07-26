@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no,minimal-ui">
+<title>api文档</title>
+</head>
+<style>
+html,body,div,span,ul,li,ol,p,a{margin:0;padding:0;}
+    #container{
+        width:500px;
+        margin:30px auto;
+        font-size:11px;
+    }
+</style>
+    <script type="text/javascript" src="ajax_lib.js"></script>
+<body>
+<div id="container">
+    求和接口地址：</br>
+    &nbsp;&nbsp;&nbsp;http://1.devtest2.sinaapp.com/ajaxApi/index.php?type=sum</br></br>
+    请求方式:post</br></br>
+    所需参数:</br>
+    &nbsp;&nbsp;&nbsp;num1  //int类型，第一个数</br>
+	&nbsp;&nbsp;&nbsp;num2  //int类型，第二个数</br></br>
+	返回结果:</br>
+	&nbsp;&nbsp;&nbsp;result //求和的结果</br>
+	&nbsp;&nbsp;&nbsp;state //当前状态，success为成功，error为失败</br></br></br>
+
+	<input type="test" id="input_num1" placeholder="请输入第1个数字" />+
+	<input type="test" id="input_num2" placeholder="请输入第2个数字" />=
+	<span id="span_result" ></span>
+	<input type="button" id="btn_ac" value="计算" /> 
+
+</div>
+</body>
+
+</html>
